@@ -24,3 +24,6 @@ git config credential.username your_username
 ## to see the git log tree
 git log --graph --oneline --all
 
+## to merge different branches together
+git merge branch_name
+
