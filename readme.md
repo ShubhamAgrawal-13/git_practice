@@ -21,4 +21,6 @@ git push origin master
 -->>> if there is an issue while doing commit of username then do 
 git config credential.username your_username
 
+## to see the git log tree
+git log --graph --oneline --all
 
