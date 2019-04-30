@@ -18,6 +18,7 @@ git commit -m "commit message"
 ## to push these changes to the local repo
 git push origin master
 -- "if do not want to add changes to master branch then add changes to any other branch instead of master"
-
+-->>> if there is an issue while doing commit of username then do 
+git config credential.username your_username
 
 
