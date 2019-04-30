@@ -24,6 +24,14 @@ git config credential.username your_username
 ## to see the git log tree
 git log --graph --oneline --all
 
+## to go to a new branch
+git checkout -b branch_name
+
+## to go to an already existing branch
+git checkout branch_name
+
+## to delete a branch
+git branch -d branch_name
+
 ## to merge different branches together
 git merge branch_name
-
