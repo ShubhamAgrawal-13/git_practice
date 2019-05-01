@@ -35,3 +35,11 @@ git branch -d branch_name
 
 ## to merge different branches together
 git merge branch_name
+
+## to set global username and email
+git config --global user.name "user_name"
+git config --global user.email "mail id"
+
+## to set repository specific username and email
+git config user.name "user_name"
+git config user.email "mail id"
