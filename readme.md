@@ -43,3 +43,16 @@ git config --global user.email "mail id"
 ## to set repository specific username and email
 git config user.name "user_name"
 git config user.email "mail id"
+
+## This command shows the file differences which are not yet staged.
+git diff
+git diff -staged
+
+## This command unstages the file, but it preserves the file contents.
+git reset [filename]
+
+## This command undoes all the commits after the specified commit and preserves the changes locally.
+git reset [commit]
+
+## This command discards all history and goes back to the specified commit.
+git reset –hard [commit]
