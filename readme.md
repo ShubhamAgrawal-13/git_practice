@@ -1,8 +1,12 @@
 ## to initialize git repo in a folder
+```
 git init 
+```
 
 ## to clone a git repo to your system
+```
 git clone username@host:/path/to/repo
+```
 
 ## to check if a directory is a git repo
 git rev-parse --is-inside-tree
